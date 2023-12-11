@@ -1,0 +1,343 @@
+/* Universal Selector */
+* {
+
+    background-color: #212024ff;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+
+}
+
+/* Body */
+body {
+
+    overflow: visible;
+    margin: 0;
+
+}
+
+/* Header Panel */
+.headerpanel {
+
+    height: 58px;
+    width: 100%;
+
+    display: flex;
+    align-items: center; /* Center items vertically or along the y axis. */
+    justify-content: flex-end; /* Horizontally or along the x axis right items. */
+
+    padding-top: 10px;
+
+}
+
+/* Google Image and Advanced Search Buttons */
+.google-search, .google-advanced-search {
+
+    color: #FEFEFE;
+    background-color: rgb(50, 50, 103);
+    border: 0px;
+    font-size: 13px;
+
+    margin-right: 10px;
+
+    border-radius: 5px;
+
+}
+
+/* Google Search Button */
+.google-search {
+
+    height: 25px;
+    width: 115px;
+
+}
+
+/* Google Advanced Search Button */
+.google-advanced-search {
+
+    height: 25px;
+    width: 170px;
+
+}
+
+/* App Icon */
+.material-icons.apps {
+
+    height: 45px;
+    width: 45px;
+
+    color: #DFDFE1;
+
+    display: flex;
+    align-items: center; /* Center items vertically or along the y axis. */
+    justify-content: center;
+
+    margin-right: 10px;
+
+    padding: 10px;
+
+}
+
+/* Google Account Photo */
+.google-account {
+
+    margin-right: 10px;
+    padding: 0;
+
+    height: 45px;
+    width: 45px;
+
+    clip-path: circle()
+
+}
+
+/* Top Section */
+.top-section {
+
+    height: 260px;
+    width: 100%;
+
+    display: flex;
+    align-items: flex-end; /* Center items vertically or along the y axis. */
+    justify-content: center;
+
+}
+
+/* Google Logo */
+.google-images-logo {
+
+    height: 140px;
+    width: 300px;
+
+}
+
+/* Middle Section */
+.middle-section {
+
+    height: 180px;
+    width: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-top: 40px;
+
+}
+
+/* Search Icon */
+.material-icons.search {
+
+    height: 39.75px;
+    width: 20px;
+
+    padding-top: 9.75px;
+    padding-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 13px;
+
+    color: #7D8087; 
+
+}
+
+/* Mic Icon */
+.material-icons.mic {
+
+    height: 43.5px;
+    width: 24px;
+
+    padding-top: 9.75px;
+    padding-bottom: 9.75px;
+    margin-left: 8px;
+    margin-right: 0px;
+
+    color: #7D8087;
+
+}
+
+/* Search Box */
+.search-box {
+
+    height: 50px;
+    width: 545px;
+
+    border-radius: 25px;
+    border: 1px solid #5F6367;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-left: 8px;
+    padding-right: 5px;
+
+    margin-bottom: 20px;
+
+}
+
+/* Form */
+form {
+    
+    display: flex;
+    align-items: center;
+
+}
+
+/* Box to Search -> Actual Box Search */
+.box-to-search {
+
+    height: 30px;
+    width: 445px;
+
+    border: none;
+    font-size: 17.5px;
+    color: #E9EAEC;
+
+}
+
+/* Buttons: Google Search Button and I'm Feeling Lucky Button */
+.google-search-button, .i-am-feeling-lucky-button {
+
+    height: 36px;
+    width: 125px;
+
+    color: #FEFEFE;
+    background-color: #303035;
+
+    display: flex;
+    align-items: center; /* Center items vertically or along the y axis. */
+    justify-content: center;
+
+    font-size: 13px;
+
+    border: 0px;
+
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    border-radius: 5px;
+
+}
+
+/* No Underline in Buttons */
+.no-underline {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+/* Bottom Section */
+.bottom-section {
+
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    font-size: 13px;
+
+}
+
+/* Google Offered */
+.google-offered {
+
+    color: #CED0D3;
+
+}
+
+/* Languages */
+.languages {
+
+    color: #89B3F4;
+
+}
+
+/* Footer */
+footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 122px;
+    padding-top: 22px;
+
+}
+
+/* Footer Panel 1 */
+.footerpanel1 {
+
+    height: 50px;
+    width: 100vw;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: #161617;
+
+    border-bottom: 1px solid #383D41;
+
+}
+
+/* Footer Panel 2 */
+.footerpanel2 {
+
+    height: 50px;
+    width: 100vw;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #161617;
+
+}
+
+/* Footer Panel 1 -> P */
+.footerpanel1 P {
+
+    font-size: 15px;
+    color: #FEFEFE;
+    background-color: #161617;
+
+}
+
+/* Footer Panel 2 -> Menu 1 */
+.footerpanel2 .Menu-1 {
+
+    font-size: 15px;
+    color: #FEFEFE;
+    background-color: #161617;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* Footer Panel 2 -> Menu 2 */
+.footerpanel2 .Menu-2 {
+
+    font-size: 15px;
+    color: #FEFEFE;
+    background-color: #161617;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
